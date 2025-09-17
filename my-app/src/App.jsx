@@ -9,17 +9,20 @@ function App() {
   return (
     <>
     <nav class='bg-sky-200 flex justify-between items-center m-2 p-3 rounded-2xl '>
-      <div><img src="/src/assets/react.svg" alt="" srcset="" /></div>
+      <div><img src="/src/assets/taxbert-logo.png" alt="" srcset="" /></div>
       <ul class='flex gap-8 pf-9 '>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Inbox</a></li>
+        <li><a href="#">UTR</a></li>
+        <li><a href="#">Tax returns</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Reports</a></li>
       </ul>
-      <div class='flex gap-4'>
-        <button class=' p-2 w-24 text-center rounded-2xl bg-gray-100 hover:bg-amber-200 '> <a href="#">Shop</a></button>
-        <button>Sign Up</button>
-        
+      <div>
+        <div class='w-42 h-42 bg-white to-50% rounded-b-lg text-black'>
+<span class="icon-[solar--chat-unread-bold]"></span>
+        </div>
       </div>
     </nav>
 
