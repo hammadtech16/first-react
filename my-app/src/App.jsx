@@ -19,6 +19,7 @@ function App() {
       <div class='flex gap-4'>
         <button class='mx-8 bg-gray-800 '>Shop</button>
         <button>Sign Up</button>
+        <button>First <Second></Second></button>
       </div>
     </nav>
 
