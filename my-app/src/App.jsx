@@ -10,7 +10,7 @@ function App() {
     <>
     <nav class='bg-sky-400 flex justify-between items-center m-2 p-3 rounded-2xl '>
       <div><img src="/src/assets/react.svg" alt="" srcset="" /></div>
-      <ul class='flex gap-8 pf-9   '>
+      <ul class='flex gap-8 pf-9 bg-red-300  '>
         <li><a href="#">Home</a></li>
         <li><a href="#">Products</a></li>
         <li><a href="#">Blog</a></li>
